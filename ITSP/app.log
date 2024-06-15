@@ -1,0 +1,182 @@
+2024-06-02 14:55:31,534 WARNING Skipping Face Photo\Manya\Manya_5.jpg: No face detected or multiple faces detected.
+2024-06-02 14:55:44,188 INFO Loaded existing face descriptors
+2024-06-02 14:55:48,044 WARNING Skipping Face Photo\Manya\Manya_5.jpg: No face detected or multiple faces detected.
+2024-06-02 14:56:01,425 INFO Loaded existing face descriptors
+2024-06-02 14:56:01,467 INFO Accessed index page
+2024-06-02 14:56:15,741 ERROR No face detected in the saved image.
+2024-06-02 14:56:31,930 ERROR No face detected in the saved image.
+2024-06-02 14:57:01,247 INFO New face added: Manya
+2024-06-02 14:57:28,177 INFO New face added: samuel
+2024-06-02 14:57:43,921 ERROR No face detected in the saved image.
+2024-06-02 14:57:58,485 ERROR No face detected in the saved image.
+2024-06-02 14:58:16,880 ERROR No face detected in the saved image.
+2024-06-02 14:58:57,916 INFO New face added: Manya
+2024-06-02 14:59:04,716 ERROR No face detected in the saved image.
+2024-06-02 14:59:21,715 ERROR No face detected in the saved image.
+2024-06-02 15:03:41,289 WARNING Skipping Face Photo\Manya\Manya_5.jpg: No face detected or multiple faces detected.
+2024-06-02 15:03:41,309 WARNING Skipping Face Photo\Manya\Manya_7.jpg: No face detected or multiple faces detected.
+2024-06-02 15:04:04,779 WARNING Skipping Face Photo\Manya\Manya_5.jpg: No face detected or multiple faces detected.
+2024-06-02 15:04:04,794 WARNING Skipping Face Photo\Manya\Manya_7.jpg: No face detected or multiple faces detected.
+2024-06-02 15:04:23,662 INFO Accessed index page
+2024-06-02 15:04:56,365 ERROR No face detected in the saved image.
+2024-06-02 15:06:24,235 INFO New face added: nigger
+2024-06-02 15:06:45,757 INFO New face added: nigger
+2024-06-02 15:07:01,358 INFO New face added: nigger
+2024-06-02 15:08:06,643 INFO New face added: nigger
+2024-06-02 15:09:49,167 ERROR No face detected in the saved image.
+2024-06-02 15:22:13,093 WARNING Skipping Face Photo\Manya\Manya_5.jpg: No face detected or multiple faces detected.
+2024-06-02 15:22:13,113 WARNING Skipping Face Photo\Manya\Manya_7.jpg: No face detected or multiple faces detected.
+2024-06-02 15:22:34,199 INFO Loaded existing face descriptors
+2024-06-02 15:23:04,433 INFO Loaded existing face descriptors
+2024-06-02 15:23:04,506 INFO Accessed index page
+2024-06-02 15:23:18,488 ERROR No face detected in the saved image.
+2024-06-02 15:23:56,438 ERROR No face detected in the saved image.
+2024-06-02 15:24:19,163 INFO New face added: shana
+2024-06-02 15:27:55,540 INFO Loaded existing face descriptors
+2024-06-02 15:28:20,710 INFO Loaded existing face descriptors
+2024-06-02 15:28:20,774 INFO Accessed index page
+2024-06-02 15:28:36,287 INFO New face added: Manya
+2024-06-02 15:28:55,744 INFO New face added: Manya
+2024-06-02 15:30:03,328 INFO Loaded existing face descriptors
+2024-06-02 15:30:30,475 INFO Loaded existing face descriptors
+2024-06-02 15:30:30,569 INFO Accessed index page
+2024-06-02 15:30:58,278 INFO New face added: sky
+2024-06-02 15:35:16,372 INFO Loaded existing face descriptors
+2024-06-02 15:35:43,187 INFO Loaded existing face descriptors
+2024-06-02 15:35:43,332 INFO Accessed index page
+2024-06-02 15:36:23,134 INFO New face added: sky
+2024-06-02 15:37:12,704 INFO New face added: h
+2024-06-02 19:35:19,842 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-02 19:35:20,488 INFO Loaded existing face descriptors
+2024-06-02 19:35:58,505 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-02 19:35:59,989 INFO Loaded existing face descriptors
+2024-06-02 19:36:00,496 INFO Accessed index page
+2024-06-02 19:36:21,944 INFO New face added: unnat
+2024-06-02 19:36:54,566 INFO Accessed index page
+2024-06-02 19:38:54,743 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-02 19:38:55,751 INFO Loaded existing face descriptors
+2024-06-02 19:39:20,910 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-02 19:39:21,949 INFO Loaded existing face descriptors
+2024-06-02 19:39:46,783 INFO Accessed index page
+2024-06-02 19:40:37,302 INFO New face added: manya
+2024-06-02 19:40:38,042 ERROR No face detected in the saved image.
+2024-06-12 06:08:10,879 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 06:08:12,024 INFO Loaded existing face descriptors
+2024-06-12 06:09:08,778 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 06:09:17,952 INFO Loaded existing face descriptors
+2024-06-12 06:09:20,281 INFO Accessed index page
+2024-06-12 06:10:22,183 ERROR No face detected in the saved image.
+2024-06-12 06:11:28,702 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 06:11:35,528 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 06:11:36,098 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 06:12:00,140 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 06:12:59,259 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 06:13:04,324 INFO Accessed index page
+2024-06-12 06:13:36,288 ERROR No face detected in the saved image.
+2024-06-12 06:13:54,880 ERROR No face detected in the saved image.
+2024-06-12 06:14:18,099 ERROR No face detected in the saved image.
+2024-06-12 06:14:23,194 ERROR No face detected in the saved image.
+2024-06-12 06:14:50,312 INFO New face added: advay
+2024-06-12 07:56:33,572 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 07:56:34,668 INFO Loaded existing face descriptors
+2024-06-12 07:57:02,677 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 07:57:03,832 INFO Loaded existing face descriptors
+2024-06-12 07:57:04,255 INFO Accessed index page
+2024-06-12 07:57:46,591 INFO New face added: chaitanya
+2024-06-12 07:57:52,982 ERROR No face detected in the saved image.
+2024-06-12 07:57:54,104 ERROR No face detected in the saved image.
+2024-06-12 07:57:58,151 ERROR No face detected in the saved image.
+2024-06-12 07:57:59,723 INFO New face added: chaitanya
+2024-06-12 07:57:59,724 INFO New face added: chaitanya
+2024-06-12 07:58:00,075 ERROR No face detected in the saved image.
+2024-06-12 07:58:00,462 ERROR No face detected in the saved image.
+2024-06-12 07:58:00,463 ERROR No face detected in the saved image.
+2024-06-12 07:58:00,480 ERROR No unrecognized face was captured.
+2024-06-12 07:58:00,480 ERROR No face detected in the saved image.
+2024-06-12 07:58:00,482 ERROR No unrecognized face was captured.
+2024-06-12 07:59:17,689 INFO New face added: advay
+2024-06-12 17:02:07,899 WARNING Skipping Face Photo\advay\advay_2.jpg: No face detected or multiple faces detected.
+2024-06-12 17:02:09,990 WARNING Skipping Face Photo\chaitanya\chaitanya_3.jpg: No face detected or multiple faces detected.
+2024-06-12 17:02:10,057 WARNING Skipping Face Photo\chaitanya\chaitanya_4.jpg: No face detected or multiple faces detected.
+2024-06-12 17:03:10,069 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 17:03:12,822 INFO Loaded existing face descriptors
+2024-06-12 17:03:19,141 WARNING Skipping Face Photo\advay\advay_2.jpg: No face detected or multiple faces detected.
+2024-06-12 17:03:20,995 WARNING Skipping Face Photo\chaitanya\chaitanya_3.jpg: No face detected or multiple faces detected.
+2024-06-12 17:03:21,083 WARNING Skipping Face Photo\chaitanya\chaitanya_4.jpg: No face detected or multiple faces detected.
+2024-06-12 17:04:25,718 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 17:04:28,489 INFO Loaded existing face descriptors
+2024-06-12 17:04:29,043 INFO Accessed index page
+2024-06-12 17:04:29,046 INFO Accessed index page
+2024-06-12 17:05:58,029 INFO New face added: Manya
+2024-06-12 17:06:05,393 INFO New face added: Manya
+2024-06-12 17:06:05,399 INFO New face added: Manya
+2024-06-12 17:06:07,043 INFO New face added: Manya
+2024-06-12 17:06:07,930 ERROR No face detected in the saved image.
+2024-06-12 17:07:22,393 INFO Accessed index page
+2024-06-12 17:08:06,287 WARNING Skipping Face Photo\advay\advay_2.jpg: No face detected or multiple faces detected.
+2024-06-12 17:09:16,609 WARNING Skipping Face Photo\sky\sky_3.jpg: No face detected or multiple faces detected.
+2024-06-12 17:09:19,441 INFO Loaded existing face descriptors
+2024-06-12 17:09:25,586 WARNING Skipping Face Photo\advay\advay_2.jpg: No face detected or multiple faces detected.
+2024-06-12 17:10:28,057 INFO Loaded existing face descriptors
+2024-06-12 17:10:28,540 INFO Accessed index page
+2024-06-12 17:12:45,182 INFO Loaded existing face descriptors
+2024-06-12 17:13:50,090 INFO Loaded existing face descriptors
+2024-06-12 17:15:24,582 INFO Loaded existing face descriptors
+2024-06-12 17:15:25,256 INFO Accessed index page
+2024-06-12 17:27:19,307 INFO Accessed index page
+2024-06-12 17:31:00,422 INFO Accessed index page
+2024-06-12 17:31:32,982 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 17:33:03,982 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 17:33:18,021 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 17:33:50,845 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-12 17:35:05,236 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:04:18,436 INFO Accessed index page
+2024-06-13 14:05:12,864 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:27,361 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:27,761 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:28,126 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:28,587 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:29,009 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:29,443 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:29,920 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:05:30,897 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:06:19,075 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:06:20,036 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:06:24,277 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:13,168 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:13,595 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:15,704 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:16,197 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:16,855 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:17,325 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:17,875 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:18,379 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:18,905 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:19,352 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:19,858 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:20,463 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:07:20,982 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:16:25,577 INFO Accessed index page
+2024-06-13 14:17:08,299 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:18:11,538 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-13 14:18:20,141 INFO Accessed index page
+2024-06-13 14:19:17,790 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 16:58:34,228 INFO Accessed index page
+2024-06-15 17:00:48,576 INFO Accessed index page
+2024-06-15 17:00:48,587 INFO Accessed index page
+2024-06-15 17:00:48,615 INFO Accessed index page
+2024-06-15 17:01:36,202 ERROR No face detected in the saved image.
+2024-06-15 17:03:33,833 INFO Accessed index page
+2024-06-15 17:04:08,230 ERROR No face detected in the saved image.
+2024-06-15 17:07:01,769 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:07:05,299 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:07:08,393 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:07:36,489 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:07:37,417 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:08:23,927 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:08:38,505 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:08:49,965 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:09:02,391 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:09:03,083 INFO Accessed index page
+2024-06-15 17:09:27,961 WARNING Reached maximum queued photos limit. Ignoring new unrecognized face.
+2024-06-15 17:17:47,195 INFO Accessed index page
