@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title class="heading">Live Location Tracker</title>
+    <style>
+        .manya{
+            background-color: #D5CFE1;
+        }
+        .oldmonk{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .head,.brocode{
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+        }
+        .brocode{
+            font-size: x-large;
+        }
+        .doremon{
+            width: 80%;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg5csNYlYpk4Pb1dh41XJwwhYnBt4JPwk"></script>
+    <script>
+        function initMap() {
+            fetch('/get_location')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        alert(data.error);
+                        return;
+                    }
+                    console.log("Latitude: " + data.latitude + ", Longitude: " + data.longitude);
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: data.latitude, lng: data.longitude},
+                        zoom: 14
+                    });
+                    var marker = new google.maps.Marker({
+                        position: {lat: data.latitude, lng: data.longitude},
+                        map: map
+                    });
+
+                    var geocoder = new google.maps.Geocoder();
+                    var latlng = new google.maps.LatLng(data.latitude, data.longitude);
+                    geocoder.geocode({'location': latlng}, function(results, status) {
+                        if (status === 'OK') {
+                            if (results[0]) {
+                                var address = results[0].formatted_address;
+                                document.getElementById('address').textContent = 'Address: ' + address;
+                            } else {
+                                document.getElementById('address').textContent = 'No address found';
+                            }
+                        } else {
+                            document.getElementById('address').textContent = 'Geocoder failed due to: ' + status;
+                        }
+                    });
+                });
+        }
+    </script>
+</head>
+<body class="manya" onload="initMap()">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+<div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">ALZOLVE</a>
+                    </div>
+
+                    <div class="navbar-collapse collapse new" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            
+                            <li><a href="#">FaceRec</a></li>
+                            <li  class="active"><a href="#">Location</a></li>
+    
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                    
+                        </ul>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oldmonk">
+        <h1 class="head">Live Location Tracker</h1>
+    <div id="map" class="doremon" style="height: 500px; width: 80%;"></div>
+    <br>
+    <br>
+    <p id="address" class="brocode">Address: Retrieving...</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

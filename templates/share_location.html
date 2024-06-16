@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Share Location</title>
+    <style>
+        body{
+            background-color: #D5CFE1;
+        }
+        .bacardi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.slider {
+  overflow: hidden;
+  background-color: white;
+  margin: 0 15px;
+  height: 80px;
+  width: 20px;
+  border-radius: 30px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 30px #fff,
+    inset -5px -5px 10px rgba(0, 0, 255, 0.1),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 420px 0 400px #2697f3,
+    inset 0px 0px 0px rgba(0, 0, 0, 0.1);
+  animation: animate_2 2.5s ease-in-out infinite;
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+@keyframes animate_2 {
+  0% {
+    transform: translateY(250px);
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(250px);
+    filter: hue-rotate(180deg);
+  }
+}
+
+    </style>
+    <script>
+        function sendLocation(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            fetch('/update_location', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    latitude: latitude,
+                    longitude: longitude
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Location sent:', data);
+            })
+            .catch(error => {
+                console.error('Error sending location:', error);
+            });
+        }
+
+        function errorCallback(error) {
+            console.error('Error getting location:', error);
+        }
+
+        function startSendingLocation() {
+            if (navigator.geolocation) {
+                const options = {
+                    enableHighAccuracy: true,
+                    timeout: 5000,
+                    maximumAge: 0
+                };
+
+                function getLocationAndSend() {
+                    navigator.geolocation.getCurrentPosition(sendLocation, errorCallback, options);
+                }
+
+                getLocationAndSend(); 
+                setInterval(getLocationAndSend, 20000); 
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+    </script>
+</head>
+<body onload="startSendingLocation()">
+  <div class="bacardi"> 
+    <h1>Share Your Location</h1>
+</div>
+    <br>
+    <br>
+    <br>
+  <section class="loader">
+
+    <div class="slider" style="--i:0">
+    </div>
+    <div class="slider" style="--i:1">
+    </div>
+    <div class="slider" style="--i:2">
+    </div>
+    <div class="slider" style="--i:3">
+    </div>
+    <div class="slider" style="--i:4">
+    </div>
+  </section>
+  <br>
+  <br>
+  <div class="bacardi"> 
+    <p>Your location is being sent to the server every 20 seconds.</p>
+</div>
+</body>
+</html>
